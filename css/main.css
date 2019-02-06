@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+/*Utility Classes*/
+
+.hidden
+{
+	display: none;
+}
+
+/*HTML Selectors*/
+
+body
+{
+	font-family: 'Average Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	border-top: 10px solid #333;
+}
+
+p
+{
+	line-height: 20px;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+#siteContainer
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	width: 1000px;
+	height: 200px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	display: block;
+	flex-direction: row;
+}
+
+#logo
+{
+	width: 220px;
+	height: 200px;
+	background-color: black;
+	display: block;
+	margin-left: 386px;
+}
+
+#logo p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#searchBar
+{
+	width: 300px;
+	height: 27px;
+	display: block;
+	margin-left: 653px;
+	margin-top: -170px;
+	background-color: black;
+}
+
+#searchBar p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#navLeft
+{
+	width: 292px;
+	height: 17px;
+	background-color: black;
+	margin-left: 61px;
+	margin-top: 20px;
+}
+
+#navLeft p
+{
+	color: #fff;
+	text-align: center;
+}
+
+#navRight
+{
+	width: 292px;
+	height: 17px;
+	background-color: black;
+	margin-left: 653px;
+	margin-top: -20px;
+}
+
+#navRight p
+{
+	color: #fff;
+	text-align: center;
+}
+
+#hero
+{
+	width: 1000px;
+	height: 400px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+#hero p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 180px;
+}
+
+#titleNews
+{
+	width: 437px;
+	height: 50px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#titleNews p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.newsDesc
+{
+	width: 960px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#one
+{
+	width: 300px;
+	height: 420px;
+	background-color: black;
+	margin-top: 126px;
+}
+
+#one p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#two
+{
+	width: 300px;
+	height: 420px;
+	background-color: black;
+	margin-top: 126px;
+}
+
+#two p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#three
+{
+	width: 300px;
+	height: 420px;
+	background-color: black;
+	margin-top: 126px;
+}
+
+#three p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#titleMap
+{
+	width: 464px;
+	height: 43px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 172px;
+}
+
+#titleMap p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#mapArea
+{
+	width: 664px;
+	height: 407px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 68px;
+}
+
+#mapArea p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#mainFooter
+{
+	width: 1000px;
+	height: 215px;
+	background-color: black;
+	margin-top: 293px;
+
+}
+
+#mainFooter p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#titleAbout
+{
+	width: 242px;
+	height: 43px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 135px;
+	margin-bottom: 80px;
+}
+
+#titleAbout p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#aboutBlurb
+{
+	width: 903px;
+	height: 500px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+#aboutBlurb h2
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 220px;
+}
+
+.companyInfo
+{
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+
+#infoImage
+{
+	width: 480px;
+	height: 443px;
+	background-color: black;
+	margin-top: 156px;
+}
+
+#infoImage p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#infoText
+{
+	width: 480px;
+	height: 443px;
+	background-color: black;
+	margin-top: 156px;
+}
+
+#infoText p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.companyInfoTwo
+{
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+
+#infoTextTwo
+{
+	width: 480px;
+	height: 443px;
+	background-color: black;
+	margin-top: 90px;
+}
+
+#infoTextTwo p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#infoImageTwo
+{
+	width: 480px;
+	height: 443px;
+	background-color: black;
+	margin-top: 90px;
+}
+
+#infoImageTwo p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 200px;
+}
+
+
